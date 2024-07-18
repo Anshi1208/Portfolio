@@ -7,7 +7,7 @@ html
 }
 :root
 {
-    --main-color: #389561;
+    --main-color: #8c8bdb;
     --shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
     --black-900:#000;
     --black-400:#646f87;
@@ -75,7 +75,7 @@ img
 .btn-1:hover
 {
     color: var(--white);
-    background-color: #389561;
+    background-color: #8c8bdb;
 }
 
 .btn-2
@@ -274,7 +274,7 @@ img
     top: 53%;
     left: 50px;
     transform: translateY(-53%);
-    border: 1px solid #389561;
+    border: 1px solid #8c8bdb;
     border-radius: 50px;
 }
 .header-social li a 
@@ -283,7 +283,7 @@ img
     display: block;
     text-align: center;
     padding: 20px 15px;
-    color: #389561;
+    color: #8c8bdb;
     transition: all 0.3s ease-out 0s;
 }
 .header-social li a:hover
@@ -442,7 +442,7 @@ img
     width: 100%;
     height: 9px;
     border-radius: 5px;
-    background-color: #389561;
+    background-color: #8c8bdb;
     position: relative;
 }
 .skill-item .skill-bar .bar-inner .progress-line
@@ -467,83 +467,7 @@ img
     top: -7px;
     right: 0;
 }
-/*===== Services =====*/
-.service-section
-{
-    min-height: 100vh;
-    background-color: var(--black-100);
-}
-.service-section .service-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.service-section .service-item-inner
-{
-    box-shadow: var(--shadow-black-100);
-    padding: 50px 15px;
-    border-radius: 10px;
-    width: 100%;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-.service-section .service-item-inner:hover
-{
-    background-color: var(--main-color);
-}
-.service-section .service-item-inner .icon 
-{
-    height: 60px;
-    width: 60px;
-    background-color: var(--main-color);
-    margin: 0 auto 30px;
-    text-align: center;
-    font-size: 28px;
-    color: var(--white);
-    border-radius: 20px;
-    border-bottom-right-radius: 0;
-    position: relative;
-    z-index: 1;
-    transition: all 0.3s ease;
-}
-.service-section .service-item-inner:hover .icon
-{
-    background-color: var(--white);
-    color: var(--main-color);
-    font-size: 24px;
-}
-.service-section .service-item-inner .icon i
-{
-    line-height: 60px;
-}
-.service-section .service-item-inner h3
-{
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--black-900);
-    margin: 0 0 10px;
-    text-transform: capitalize;
-    transition: all 0.3s ease;
-}
-.service-section .service-item-inner:hover h3
-{
-    color: var(--white);
-}
-.service-section .service-item-inner p
-{
-    font-size: 16px;
-    color: var(--black-400);
-    margin: 0;
-    line-height: 26px;
-    transition: all 0.3s ease;
-}
-.service-section .service-item-inner:hover p
-{
-    color: var(--black-100);
-}
+
 /*===== portfolio =====*/
 .portfolio .portfolio-filter
 {
@@ -938,69 +862,7 @@ img
     line-height: 26px;
     margin: 0;
 }
-.contact-section .contact-form
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-top: 50px;
-}
-.contact-section .w-50
-{
-    padding: 0 15px;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-.contact-section .input-group
-{
-    margin: 0 0 25px;
-    border-radius: 30px;
-    background-color: var(--black-100);
-    box-shadow: var(--shadow-black-100);
-}
-.contact-section .input-group .input-control
-{
-    height: 45px;
-    display: block;
-    width: 100%;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-size: 16px;
-    padding: 0 15px;
-    transition: all 0.3s ease;
-    color: var(--black-400);
-}
-.contact-section .input-group textarea.input-control
-{
-    height: 180px;
-    padding-top: 15px;
-    resize: none;
-}
-.contact-section .input-group .input-control:focus
-{
-    border: 1px solid var(--main-color);
-}
-.contact-section .submit-btn
-{
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: right;
-    padding: 0 15px;
-}
-/*footer*/
-footer
-{
-    background-color: var(--main-color);
-}
-footer .copyright-text
-{
-    padding: 10px 0;
-    font-size: 18px;
-    color: var(--black-100);
-    font-weight: 300;
-    margin: 10px 0 0;
-}
+
 /*Responsive*/
 @media  (min-width:1300px) and (max-width:1399px)
 {
