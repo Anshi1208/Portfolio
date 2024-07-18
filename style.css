@@ -299,14 +299,14 @@ img
 }
 .home-section .home-text h4
 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     letter-spacing: 4px;
     color: var(--main-color);
 }
 .home-section .home-text h1
 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 15px;
     color: var(--black-900);
