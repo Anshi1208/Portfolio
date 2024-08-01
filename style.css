@@ -111,6 +111,7 @@ img
     max-width: 100%;
     margin-bottom: 30px;
 }
+
 .section-title .sub-title
 {
     font-size: 20px;
@@ -357,6 +358,24 @@ img
     top: 0;
     left: 0;
 }
+.resume-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8c8bdb;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px; /* Make the button round */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #8c8bdb; /* Darken the button on hover */
+}
+
 /*===== About =====*/
 .about-section .about-image,
 .about-section .about-content
@@ -716,109 +735,7 @@ img
     font-size: 32px;
     line-height: 40px;
 }
-/*===== pricing =====*/
-.pricing-item
-{
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.pricing-plan
-{
-    box-shadow: var(--shadow-black-100);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 100%;
-}
-.pricing-plan .pricing-header
-{
-    padding: 20px 30px;
-    border-bottom: 1px solid var(--black-100);
-    position: relative;
-}
-.pricing-plan .pricing-header h3
-{
-    font-size: 30px;
-    color: var(--black-900);
-    font-weight: 500;
-    text-transform: capitalize;
-    margin: 0;
-}
-.best-value
-{
-    position: absolute;
-    right: -35%;
-    top: 50%;
-    width: 100%;
-    color: var(--white);
-    background-color: var(--main-color);
-    text-transform: capitalize;
-    transform: rotate(50deg);
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 0;
-}
-.pricing-plan .pricing-price
-{
-    padding: 40px 30px;
-    display: flex;
-    line-height: 0.7;
-}
-.pricing-plan .pricing-price .currency
-{
-    font-size: 16px;
-    font-weight: 300;
-    color: var(--black-400);
-    margin-right: 5px;
-    align-self: flex-start;
-}
-.pricing-plan .pricing-price .price 
-{
-    font-size: 80px;
-    font-weight: 700;
-    color: var(--main-color);
-}
-.pricing-plan .pricing-price .period
-{
-    font-size: 14px;
-    font-weight: 300;
-    color: var(--black-400);
-    margin-right: 5px;
-    align-self: flex-end;
-    text-transform: uppercase;
-}
-.pricing-plan .pricing-body
-{
-    padding: 0 30px;
-}
-.pricing-plan .pricing-body ul li
-{
-    font-size: 16px;
-    font-weight: 300;
-    color: var(--black-400);
-    padding: 10px 0 10px 30px;
-    border-bottom: 1px solid var(--black-alpha-100);
-    line-height: 26px;
-    position: relative;
-}
-.pricing-plan .pricing-body ul li:last-child
-{
-    border-bottom: none;
-}
-.pricing-plan .pricing-body ul li i
-{
-    color: var(--main-color);
-    position: absolute;
-    left: 0;
-    top: 12px;
-}
-.pricing-plan .pricing-footer
-{
-    padding: 40px;
-    text-align: center;
-}
+
 /*===== contact =====*/
 .contact-section
 {
@@ -862,6 +779,62 @@ img
     line-height: 26px;
     margin: 0;
 }
+.portfolio-link{
+    margin-left: 35px;
+    
+}
+/* EDUCATION SECTION */
+.about-section1 {
+    margin: 40px 0;
+    margin-left: 350px;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack items vertically */
+    
+}
+
+.section-padding1 {
+    padding: 90px 60px;
+}
+
+.about-section1 h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #8c8bdb;
+    text-align: center;
+    
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-content {
+    text-align: left;
+}
+
+.education-content h3 {
+    margin: 0;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+.education-content p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #8c8bdb;
+}
+
+.education-content span {
+    font-size: 14px;
+    color: #999;
+}
+
 
 /*Responsive*/
 @media  (min-width:1300px) and (max-width:1399px)
