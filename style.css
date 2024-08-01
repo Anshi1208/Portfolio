@@ -953,4 +953,55 @@ img
         flex: 0 0 100%;
         max-width: 100%;
     }
+    /* EDUCATION SECTION */
+.about-section1 {
+    margin: 40px 0;
+    margin-left: 60px;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack items vertically */
+    
+}
+
+.section-padding1 {
+    padding: 90px 60px;
+}
+
+.about-section1 h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #8c8bdb;
+    text-align: center;
+    
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-content {
+    text-align: left;
+}
+
+.education-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.education-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #8c8bdb;
+}
+
+.education-content span {
+    font-size: 10px;
+    color: #999;
+}
 }
