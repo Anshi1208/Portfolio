@@ -931,7 +931,7 @@ img
         text-align: center;
     }
     .pricing .pricing-item,
-    .portfolio .portfolio-item,
+    .portfolio1 .portfolio-item,
     .service-section .service-item
     {
         flex: 0 0 50%;
@@ -945,7 +945,7 @@ img
         left: 85%;
     }
     .service-section .service-item,
-    .portfolio .portfolio-item,
+    .portfolio1 .portfolio-item,
     .pricing .pricing-item,
     .contact-section .contact-item,
     .contact-section .w-50,
