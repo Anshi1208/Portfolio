@@ -488,14 +488,14 @@ img
 }
 
 /*===== portfolio =====*/
-.portfolio .portfolio-filter
+.portfolio1 .portfolio-filter
 {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 20px;
     text-align: center;
 }
-.portfolio .portfolio-filter button
+.portfolio1 .portfolio-filter button
 {
     text-transform: uppercase;
     margin-top: -20px;
@@ -511,17 +511,17 @@ img
     margin-bottom: 20px;
     transition: all 0.3s ease;
 }
-.portfolio .portfolio-filter button:last-child
+.portfolio1 .portfolio-filter button:last-child
 {
     margin-right: 0;
 }
-.portfolio .portfolio-filter button:hover,
-.portfolio .portfolio-filter button.active 
+.portfolio1 .portfolio-filter button:hover,
+.portfolio1 .portfolio-filter button.active 
 {
     color: var(--white);
     background-color: var(--main-color);
 }
-.portfolio .portfolio-item
+.portfolio1 .portfolio-item
 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -529,11 +529,11 @@ img
     display: flex;
     flex-wrap: wrap;
 }
-.portfolio .portfolio-item.hide 
+.portfolio1 .portfolio-item.hide 
 {
     display: none;
 }
-.portfolio .portfolio-item.show
+.portfolio1 .portfolio-item.show
 {
     display: block;
     animation:  showItem 0.5s ease;
@@ -551,7 +551,7 @@ img
         opacity: 1;
     }
 }
-.portfolio .portfolio-item-inner
+.portfolio1 .portfolio-item-inner
 {
     width: 100%;
     overflow: hidden;
@@ -560,12 +560,13 @@ img
     cursor: pointer;
     position: relative;
 }
-.portfolio .portfolio-item-inner .portfolio-img img
+.portfolio1 .portfolio-item-inner .portfolio-img img
 {
     width: 100%;
+    height:12%;
     display: block;
 }
-.portfolio .portfolio-item .portfolio-info
+.portfolio1 .portfolio-item .portfolio-info
 {
     position: absolute;
     left: 0;
@@ -578,11 +579,11 @@ img
     opacity: 0;
     transition: all 0.3s ease;
 }
-.portfolio .portfolio-item:hover .portfolio-info
+.portfolio1 .portfolio-item:hover .portfolio-info
 {
     opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-info h4
+.portfolio1 .portfolio-item .portfolio-info h4
 {
     font-size: 18px;
     font-weight: 700;
@@ -592,12 +593,12 @@ img
     transition: all 0.3s ease;
     opacity: 0;
 }
-.portfolio .portfolio-item:hover .portfolio-info h4
+.portfolio1 .portfolio-item:hover .portfolio-info h4
 {
     transform: translateX(0px);
     opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-info .icon
+.portfolio1 .portfolio-item .portfolio-info .icon
 {
     height: 40px;
     width: 40px;
@@ -612,12 +613,12 @@ img
     transition: all 0.3s ease;
     opacity: 0;
 }
-.portfolio .portfolio-item:hover .portfolio-info .icon
+.portfolio1 .portfolio-item:hover .portfolio-info .icon
 {
     transform: translateX(0px);
     opacity: 1;
 }
-.portfolio .portfolio-item .portfolio-info .icon .fa 
+.portfolio1 .portfolio-item .portfolio-info .icon .fa 
 {
     line-height: 40px;
 }
