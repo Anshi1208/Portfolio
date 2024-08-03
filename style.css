@@ -1,5 +1,7 @@
 /*===== Google Fonts =====*/
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
 /*===== Global CSS =====*/
 html
 {
@@ -269,17 +271,16 @@ img
     overflow-x: hidden;
     padding-top: 80px;
 }
-.header-social
-{
-    position: absolute;
-    top: 53%;
-    left: 50px;
+.header-social {
+    position: fixed; /* Change from absolute to fixed */
+    top: 53%;        /* Keeps the vertical position the same */
+    left: 50px;      /* Keeps the horizontal position the same */
     transform: translateY(-53%);
     border: 1px solid #8c8bdb;
     border-radius: 50px;
 }
-.header-social li a 
-{
+
+.header-social li a {
     font-size: 18px;
     display: block;
     text-align: center;
@@ -287,10 +288,11 @@ img
     color: #8c8bdb;
     transition: all 0.3s ease-out 0s;
 }
-.header-social li a:hover
-{
+
+.header-social li a:hover {
     color: var(--main-color);
 }
+
 .home-section .home-text,
 .home-section .home-image
 {
@@ -431,63 +433,50 @@ img
 {
     text-align: justify;
 }
-.skill-item .skill-header
-{
-    position: relative;
-}
-.skill-item .skill-header .skill-title
-{
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 15px;
-}
-.skill-item .skill-header .skill-percentage
-{
-    position: absolute;
-    top: -3px;
-    right: 0;
-}
-.skill-item .skill-header .skill-percentage p
-{
-    font-size: 14px;
-    font-weight: 400;
-}
-.skill-item .skill-bar
-{
-    margin-top: 15px;
-}
-.skill-item .skill-bar .bar-inner
-{
-    width: 100%;
-    height: 9px;
-    border-radius: 5px;
-    background-color: #8c8bdb;
-    position: relative;
-}
-.skill-item .skill-bar .bar-inner .progress-line
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 9px;
-    border-radius: 5px;
-    background-color: var(--main-color);
-    width: 0%;
-    transition:all 2s ease-out;
-}
-.skill-item .skill-bar .bar-inner .progress-line::before
-{
-    position: absolute;
-    content: '';
-    width: 7px;
-    height: 18px;
-    background-color: var(--white);
-    border: 2px solid var(--main-color);
-    top: -7px;
-    right: 0;
+.skills-section {
+    padding: 60px 0;
 }
 
-/*===== portfolio =====*/
+.skills-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-logo {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 80px; /* Consistent width for all logos */
+height: 90px; /* Consistent height for all logos */
+overflow: hidden; /* Ensure images fit within the fixed size */
+}
+
+.logo-image {
+width: 100%;
+height: 100%;
+object-fit: contain; /* Ensures the entire image fits within the fixed size */
+}
+
+.logo-name {
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+background: rgba(0, 0, 0, 0.7); /* Background for text visibility */
+color: #fff;
+padding: 5px;
+border-radius: 5px;
+opacity: 0;
+transition: opacity 0.3s ease;
+white-space: nowrap;
+}
+
+.skill-logo:hover .logo-name {
+opacity: 1;
+}
 .portfolio1 .portfolio-filter
 {
     flex: 0 0 100%;
@@ -953,6 +942,13 @@ img
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .sub-title{
+        margin-left: 10px;
+    }
+    .skill-logo {
+        width: 80px;
+        height: 80px;
     }
     /* EDUCATION SECTION */
 .about-section1 {
