@@ -929,6 +929,7 @@ opacity: 1;
 }
 @media(max-width: 767px)
 {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
     .header-social
     {
         left: 85%;
@@ -952,8 +953,8 @@ opacity: 1;
     }
     /* EDUCATION SECTION */
 .about-section1 {
-    margin: 40px 0;
-    margin-left: 60px;
+    margin: 10px 0;
+    margin-left: 3px;
     padding: 20px;
     background-color: #fff;
     justify-content: center; /* Center content horizontally */
@@ -961,20 +962,26 @@ opacity: 1;
     flex-direction: column; /* Stack items vertically */
     
 }
-
+.section-title h5{
+    margin-left: 37px;
+}
 .section-padding1 {
-    padding: 90px 60px;
+    padding: 50px 30px;
 }
 
 .about-section1 h2 {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 24px;
     color: #8c8bdb;
-    text-align: center;
+    
+    align-items: center;
     
     display: inline-block;
     padding-bottom: 5px;
+
+    
 }
+
 
 .education-item {
     margin-bottom: 20px;
@@ -986,19 +993,22 @@ opacity: 1;
 
 .education-content h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 22px;
     color: black;
     font-weight: bold;
 }
 
 .education-content p {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 16px;
     color: #8c8bdb;
 }
 
 .education-content span {
-    font-size: 10px;
+    font-size: 14px;
     color: #999;
+}
+.portfolio-links{
+    margin-left: 15px;
 }
 }
